@@ -10,7 +10,9 @@ Changing to **MySQL** is a simple change in configuration and I guess I can do i
 **Changes needed to Migrate to Mysql from SQLite:**
 update the adapter in **config/database.yml** to **adapter: mysql2**
 
-and add **bin/bundle add mysql2**
+and add **bin/bundle add mysql2** 
+
+Due to time constraints used ERB instead of SLIM, as i am more familiar in erb, can easily convert to slim, if given one more day.
 
 
 **Actual Read Me starts here:**
