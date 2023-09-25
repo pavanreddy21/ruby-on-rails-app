@@ -1,6 +1,7 @@
-# README
+## README
 
-**DB_USED**:  **sqlite**
+
+```DB_USED: sqlite```
 
 Reason for using **Sqlite**, My Mac recently got updated and MySQL's old version is not compatible, I will have to reinstall it but I don't want to lose out on my old project data, Given the Time constraints I went ahead with SQLite as it is lightweight.
 
@@ -14,33 +15,12 @@ and add **bin/bundle add mysql2**
 
 **Actual Read Me starts here:**
 
+Ruby Version: 3.2.2
+System dependencies sqlite
 
+Database creation: bin/rails db:bigrate
+Database initialization: bin/rails db:seed
 
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
+Tests: bundle exec rspec
 
 
