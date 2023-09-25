@@ -15,16 +15,21 @@ and add **bin/bundle add mysql2**
 Due to time constraints used ERB instead of SLIM, as i am more familiar in erb, can easily convert to slim, if given one more day.
 
 
-**Actual Read Me starts here:**
 
+
+
+## Actual Read Me starts here
+--------------------------------
 Ruby Version: 3.2.2
 
 System dependencies: SQLite
 
 Database creation: ```bin/rails db:migrate```
+
 Database initialization: ```bin/rails db:seed```
 
 Tests: **bundle exec rspec**
+
 
 
 
