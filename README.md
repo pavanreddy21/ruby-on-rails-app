@@ -16,11 +16,22 @@ and add **bin/bundle add mysql2**
 **Actual Read Me starts here:**
 
 Ruby Version: 3.2.2
-System dependencies sqlite
+System dependencies: SQLite
 
-Database creation: bin/rails db:bigrate
-Database initialization: bin/rails db:seed
+Database creation: **bin/rails db:migrate**
+Database initialization: **bin/rails db:seed**
 
-Tests: bundle exec rspec
+Tests: **bundle exec rspec**
+
+
+
+
+**Approach for the project**
+----------------------------
+Created 2 models User Model for personal information and Employment model
+
+A user can have multiple employments, so added to the corresponding relationship between the User and Employment
+
+Created User Controller and employment controller and created ERB pages and also created hotwire interaction in the app using Turbo frames and added the client side validation using  stimulus controller 
 
 
