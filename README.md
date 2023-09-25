@@ -49,16 +49,17 @@ A user can have multiple employments, so added to the corresponding relationship
 Created User Controller and employment controller and created ERB pages and also created hotwire interaction in the app using Turbo frames and added the client side validation using  stimulus controller 
 
 
+
 ## Enhancments which can be done if given more time and ideally for realtime app
 
 
-**-> would have installed and setup Rubocorp
+->would have installed and setup Rubocorp
 
 ->Factory Bot for setting up Ruby objects as test data
 
 -> byebug for debugging 
 
--> would have dockerized the app and deployed it**
+-> would have dockerized the app and deployed it
 
 
 
