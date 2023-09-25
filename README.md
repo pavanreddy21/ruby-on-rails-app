@@ -16,10 +16,11 @@ and add **bin/bundle add mysql2**
 **Actual Read Me starts here:**
 
 Ruby Version: 3.2.2
+
 System dependencies: SQLite
 
-Database creation: **bin/rails db:migrate**
-Database initialization: **bin/rails db:seed**
+Database creation: ```bin/rails db:migrate```
+Database initialization: ```bin/rails db:seed```
 
 Tests: **bundle exec rspec**
 
