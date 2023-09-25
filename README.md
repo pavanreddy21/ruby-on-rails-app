@@ -1,7 +1,7 @@
 ## README
 
 
-```DB_USED: sqlite```
+=> ```DB_USED: sqlite```
 
 Reason for using **Sqlite**, My Mac recently got updated and MySQL's old version is not compatible, I will have to reinstall it but I don't want to lose out on my old project data, Given the Time constraints I went ahead with SQLite as it is lightweight.
 
@@ -12,7 +12,7 @@ update the adapter in **config/database.yml** to **adapter: mysql2**
 
 and add **bin/bundle add mysql2** 
 
-Due to time constraints used ERB instead of SLIM, as i am more familiar in erb, can easily convert to slim, if given one more day.
+=> Due to time constraints used ERB instead of SLIM, as I am more familiar in erb, can easily convert to slim, if given one more day.
 
 
 
