@@ -1,0 +1,27 @@
+<%= form_with(model: user, class: "mb-7") do |form| %>
+    <div class="mb-5">
+      <%= form.text_field :name, placeholder: "Name", class: "inline-block w-96 px-3 py-2 mt-2 shadow rounded-md border border-gray-200 outline-none" %>
+    </div>
+  
+    <div class="mb-5">
+      <%= form.text_field :nickname, placeholder: "Nickname", class: "inline-block w-96 px-3 py-2 mt-2 shadow rounded-md border border-gray-200 outline-none" %>
+    </div>
+  
+    <div class="mb-5">
+      <%= form.text_field :email, placeholder: "Email", class: "inline-block w-96 px-3 py-2 mt-2 shadow rounded-md border border-gray-200 outline-none" %>
+    </div>
+  
+    <div class="mb-5">
+      <%= form.text_field :phone, placeholder: "Phone", class: "inline-block w-96 px-3 py-2 mt-2 shadow rounded-md border border-gray-200 outline-none" %>
+    </div>
+  
+    <!-- Add the address field here, it's a JSON field so you can use text_area or text_field accordingly -->
+    <div class="mb-5">
+      <%= form.text_area :address, placeholder: "Address (JSON)", class: "inline-block w-96 px-3 py-2 mt-2 shadow rounded-md border border-gray-200 outline-none" %>
+    </div>
+  
+    <div class="mb-5">
+      <%= form.submit "Save", class: "btn py-2 ml-2 bg-blue-600 text-white" %>
+    </div>
+  <% end %>
+  

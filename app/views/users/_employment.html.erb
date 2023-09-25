@@ -1,0 +1,22 @@
+<div class="flex flex-1 align-items-center justify-center">
+  <turbo-frame id="<%= dom_id employment %>" class="flex table">
+    <%= form_with(model: employment, class:"text-lg inline-block my-3") do |form| %>
+
+      <div class="flex">
+        <div class="td text-center px-4 py-3 border-b hover:bg-gray-100"><%= employment.employer %></div>
+        <div class="td text-center px-4 py-3 border-b hover:bg-gray-100"><%= employment.start_date %></div>
+        <div class="td text-center px-4 py-3 border-b hover:bg-gray-100"><%= employment.end_date %></div>
+      </div>
+    <% end %>
+
+    <%= link_to "Edit", edit_employment_path(employment),
+    class: "btn bg-gray-100"
+    %>
+    <div class="inline-block ml-2">
+      <%= button_to "Delete", employment_path(employment),
+            method: :delete,
+            data: { "turbo-frame": "_top" },
+            class: "btn bg-red-100" %>
+    </div>
+  </turbo-frame>
+</div>
