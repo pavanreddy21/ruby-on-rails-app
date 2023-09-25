@@ -38,13 +38,11 @@ export function validateName(name, maxLength) {
 }
 
 export function validateAddress(address) {
-  // You can add your address validation logic here
   // For simplicity, we'll just check if it's not empty
   return address.trim() !== "";
 }
 
 export function validatePhoneNumber(phone) {
-  // You can add your phone number validation logic here
   // For simplicity, we'll just check if it's not empty
   return phone.trim() !== "";
 }
