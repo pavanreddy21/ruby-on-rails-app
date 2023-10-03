@@ -1,5 +1,5 @@
 ## README
-
+Time Spent : less than a Day
 
 - ```DB_USED: sqlite```
 
